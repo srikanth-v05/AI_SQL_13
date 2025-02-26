@@ -5,9 +5,9 @@ from sqlalchemy import create_engine, inspect
 from sqlalchemy.engine.url import URL
 from schemex1 import schemex
 
-SF_USER = 'Naveen'
-SF_PASSWORD = 'Naveen@1234'
-SF_ACCOUNT = 'kc68443.ap-southeast-1'
+SF_USER = 'Naveen04'
+SF_PASSWORD = 'Naveenkumar0410'
+SF_ACCOUNT = 'SY62755.ap-southeast-1'        
 SF_WAREHOUSE = 'COMPUTE_WH'
 SF_DATABASE = 'MEC'
 SF_SCHEMA = 'BIKE_SALE'
