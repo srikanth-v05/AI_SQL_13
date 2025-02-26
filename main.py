@@ -272,7 +272,7 @@ if st.session_state.sidebar_selection == "AI-SQL":
                         elif isinstance(result, plt.Figure):
                             st.image(result)  # Display an image if the response is a figure
                         else:
-                            st.write("Unsupported response type.")
+                            st.write(output)
             else:
                 st.write("Unsupported response type.")
 
