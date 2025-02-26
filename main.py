@@ -274,7 +274,7 @@ if st.session_state.sidebar_selection == "AI-SQL":
                         else:
                             st.write(output)
             else:
-                st.write("Unsupported response type.")
+                st.write(output)
 
             
 
