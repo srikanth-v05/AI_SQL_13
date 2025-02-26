@@ -273,6 +273,8 @@ if st.session_state.sidebar_selection == "AI-SQL":
                             st.image(result)  # Display an image if the response is a figure
                         else:
                             st.write(output)
+            elif isinstance(output, str):
+                st.write(output)
             else:
                 st.write(output)
 
